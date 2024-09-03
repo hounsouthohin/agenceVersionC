@@ -1,5 +1,6 @@
 #include "Faction.h";
 #include <string>;
+Faction::Faction():nom(""), capacite(0), attaque(0), defense(0), vie(0){}
 Faction::Faction(std::string _nom) :capacite(0), attaque(0), defense(0), vie(0)
 {
 	_nom = "Nom de la faction";

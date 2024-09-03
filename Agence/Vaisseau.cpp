@@ -1,18 +1,19 @@
 #include "Vaisseau.h";
+#include"Faction.h";
 #include <string>;
-Vaisseau::Vaisseau(Faction _factionRouge, Faction _factionBleue) :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0)
+Vaisseau::Vaisseau() :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0)
 {
-	factionRouge = _factionRouge;
-	factionBleue = _factionBleue;
+	factionRouge = Faction("Faction rouge", 150, 200,350,400);
+	factionBleue = Faction("Faction bleue", 100, 150, 250, 350);
 }
-Vaisseau::Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite, Faction _factionRouge, Faction _factionBleue) :attaque(0), defense(0), vie(0)
+Vaisseau::Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite) :attaque(0), defense(0), vie(0)
 {
 	nom = _nom;
 	niveau = _niveau;
 	exp = _exp;
 	capacite = _capacite;
-	factionRouge = _factionRouge;
-	factionBleue = _factionBleue;
+	factionRouge = Faction("Faction rouge", 150, 200, 350, 400);
+	factionBleue = Faction("Faction bleue", 100, 150, 250, 350);
 }
 
 Vaisseau::~Vaisseau() {}

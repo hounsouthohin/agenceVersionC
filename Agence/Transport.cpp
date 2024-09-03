@@ -1,6 +1,6 @@
 #include "Transport.h";
 #include<string>;
-Transport::Transport():Vaisseau("Transport", 22,35,50, new Faction("FactionRouge", 120, 230, 340, 500), new Faction("FactionBleue", 100, 190, 300, 400))
+Transport::Transport():Vaisseau("Transport", 22,35,50)
 {}
 Transport::~Transport() 
 {}

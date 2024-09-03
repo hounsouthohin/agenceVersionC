@@ -1,5 +1,5 @@
 #include "Guerre.h";
-Guerre::Guerre() :Vaisseau("Guerre",100,150, 450, new Faction("FactionRouge", 120, 230, 340, 500), new Faction("FactionBleue", 100, 190, 300, 400))
+Guerre::Guerre() :Vaisseau("Guerre",100,150, 450)
 {}
 Guerre::~Guerre()
 {}

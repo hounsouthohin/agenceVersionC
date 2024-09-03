@@ -10,6 +10,7 @@ protected:
 	int vie;
 	//Constructeur et surcharge
 public:
+	Faction();
 	Faction(std::string _nom);
 	Faction(std::string _nom, int _capacite,int _attaque, int _defense, int _vie);
 	~Faction();

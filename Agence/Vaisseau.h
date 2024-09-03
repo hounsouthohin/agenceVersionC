@@ -14,8 +14,8 @@ protected:
 	Faction factionBleue;
 	//Constructeur et surcharge
 public:
-	Vaisseau(Faction _factionRouge, Faction _factionBleue);
-	Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite, Faction _factionRouge, Faction _factionBleue);
+	Vaisseau();
+	Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite);
 	~Vaisseau();
 
 	int getAtt();

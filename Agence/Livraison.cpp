@@ -1,5 +1,5 @@
 #include "Livraison.h";
-Livraison::Livraison() :Vaisseau("Livraison", 12, 25, 35, new Faction("FactionRouge",120,230,340,500),new Faction("FactionBleue",100,190,300,400))
+Livraison::Livraison() :Vaisseau("Livraison", 12, 25, 35)
 {}
 Livraison::~Livraison()
 {}
