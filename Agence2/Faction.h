@@ -1,12 +1,13 @@
 #pragma once
-#include <string>;
+#include <string>
 class Faction
 {
+protected:
 	int attaque;
 	int defense;
 	int capacite;
 	std::string nom;
-	int vie;protected:
+	int vie;
 
 	//Constructeur et surcharge
 public:

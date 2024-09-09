@@ -13,9 +13,9 @@ Livraison::Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, i
 }
 Livraison::~Livraison()
 {}
-std::string to_string()
+std::string Livraison::to_string()
 {
-	std::string info;
+	std::string info = Vaisseau::to_string();
 	info.append("je suis un vaisseau de livraison");
 	return info;
 }

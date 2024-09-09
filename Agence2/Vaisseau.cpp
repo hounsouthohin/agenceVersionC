@@ -20,16 +20,16 @@ Vaisseau::Vaisseau(int _niveau, int _exp, int _capacite, int _vie, int _def, int
 	niveau = _niveau;
 	exp = _exp;
 	capacite = _capacite;
-	defense = _def;
-	attaque = _att;
-	vie = _vie;
+	defense = _def + faction->getDef();
+	attaque = _att + faction->getAtt();
+	vie = _vie + faction->getVie();
 	faction = _faction;
 
 }
 Vaisseau::~Vaisseau() {}
-int Vaisseau::getAtt() { return attaque + faction->getAtt(); }
-int Vaisseau::getDef() { return defense + faction->getDef(); }
-int Vaisseau::getVie() { return vie + faction->getVie(); }
+int Vaisseau::getAtt() { return attaque ; }
+int Vaisseau::getDef() { return defense; }
+int Vaisseau::getVie() { return vie; }
 std::string Vaisseau::to_string()
 {
 	std::string info;

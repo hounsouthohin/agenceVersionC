@@ -1,4 +1,4 @@
-#include<string>;
+#include<string>
 #include"Vaisseau.h"
 class FactoryVaisseau
 {

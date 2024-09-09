@@ -1,11 +1,23 @@
 #include "FactionRouge.h"
-#include <string>;
-FactionRouge::FactionRouge() :nom(""), capacite(0), attaque(0), defense(0), vie(0) {}
-FactionRouge::FactionRouge(std::string _nom) :capacite(0), attaque(0), defense(0), vie(0)
+#include <string>
+FactionRouge::FactionRouge() :Faction()
 {
-	_nom = "Faction rouge";
+	nom = "";
+	capacite = 0;
+	attaque = 0;
+	defense = 0;
+	vie = 0;
 }
-FactionRouge::FactionRouge(std::string _nom, int _capacite, int _attaque, int _defense, int _vie)
+FactionRouge::FactionRouge(std::string _nom) :Faction(_nom)
+{
+
+	nom = _nom;
+	capacite = 0;
+	attaque = 0;
+	defense = 0;
+	vie = 0;
+}
+FactionRouge::FactionRouge(std::string _nom, int _capacite, int _attaque, int _defense, int _vie) :Faction(_nom, _capacite, _attaque, _defense, _vie)
 {
 	nom = _nom;
 	capacite = _capacite;
@@ -13,5 +25,6 @@ FactionRouge::FactionRouge(std::string _nom, int _capacite, int _attaque, int _d
 	defense = _defense;
 	vie = _vie;
 }
+
 FactionRouge::~FactionRouge() {};
 

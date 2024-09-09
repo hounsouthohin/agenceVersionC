@@ -1,12 +1,12 @@
-#include"Factory.h";
-#include"Utilitaire.h";
-#include<string>;
-#include"cstdlib";
-#include"Guerre.h";
-#include"Transport.h";
-#include"Livraison.h";
-#include"FactionRouge.h";
-#include"FactionBleue.h";
+#include"Factory.h"
+#include"Utilitaire.h"
+#include<string>
+#include"cstdlib"
+#include"Guerre.h"
+#include"Transport.h"
+#include"Livraison.h"
+#include"FactionRouge.h"
+#include"FactionBleue.h"
 
 Vaisseau* FactoryVaisseau::getRandomVaisseau() 
 {
@@ -25,11 +25,11 @@ Vaisseau* FactoryVaisseau::getRandomVaisseau()
 	switch (typeIndex)
 	{
 	case 1:
-		*vaisseau = Guerre(niv,exp,cap,vie,def,att,faction);
+		vaisseau = new Guerre(niv,exp,cap,vie,def,att,faction);
 	case 2:
-		*vaisseau = Livraison(niv, exp, cap, vie, def, att, faction);
+		vaisseau =new Livraison(niv, exp, cap, vie, def, att, faction);
 	default:
-		*vaisseau = Transport(niv, exp, cap, vie, def, att, faction);
+		vaisseau = new Transport(niv, exp, cap, vie, def, att, faction);
 		break;
 	}
 	return vaisseau;
@@ -43,17 +43,18 @@ Faction* FactoryVaisseau::getRandomFaction()
 	int cap = Utilitaire::genererNb(10, 150);
 	int def = Utilitaire::genererNb(20, 200);
 	int vie = Utilitaire::genererNb(30, 400);
+	faction = new Faction("klkl", 0, 0, 0, 0);
 	//Generer type aleatoire
-	int nomIndex = Utilitaire::genererNb(1, 3);
+	int nomIndex = 1;
 	switch(nomIndex) 
 	{
 		case 1 :
 			nom = "FactionRouge";
-			*faction = FactionRouge(nom, cap, att, def, vie);
+			faction = new FactionRouge(nom, cap, att, def, vie);
 			break;
 		case 2 : 
 			nom = "FactionBleue";
-			*faction = FactionBleue(nom, cap, att, def, vie);
+			faction = new FactionBleue(nom, cap, att, def, vie);
 			break;
 		default :
 			break;

@@ -2,5 +2,5 @@
 class Utilitaire 
 {
 public:
-	static inline int genererNb(int min, int max);
+	static  int genererNb(int min, int max);
 };

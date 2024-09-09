@@ -1,7 +1,5 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error : La séquence ne contient aucun élément.
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à Microsoft.NuGet.Build.Tasks.ResolveNuGetPackageAssets.GiveErrorForMissingFramework()
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à Microsoft.NuGet.Build.Tasks.ResolveNuGetPackageAssets.GetTargetOrAttemptFallback(JObject lockFile, Boolean needsRuntimeIdentifier)
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à Microsoft.NuGet.Build.Tasks.ResolveNuGetPackageAssets.GetReferences(JObject lockFile)
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à Microsoft.NuGet.Build.Tasks.ResolveNuGetPackageAssets.ExecuteCore()
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error :    à Microsoft.NuGet.Build.Tasks.ResolveNuGetPackageAssets.Execute()
+﻿  Vaisseau.cpp
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(3,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Agence.vcxproj -> C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\x64\Debug\Agence.exe

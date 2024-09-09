@@ -1,14 +1,7 @@
 #pragma once
 #include "Faction.h"
 class FactionBleue : public Faction
-{
-
-	int attaque;
-	int defense;
-	int capacite;
-	std::string nom;
-	int vie; 
-
+{ 
 	//Constructeur et surcharge
 public:
 	FactionBleue();

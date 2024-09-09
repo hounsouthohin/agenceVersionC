@@ -1,11 +1,11 @@
 #pragma once
-#include <string>;
+#include <string>
 #include"Faction.h"
 class Vaisseau
 {
-private: 
+protected: 
 	Faction* faction;
-protected:
+
 	int attaque;
 	int defense;
 	int capacite;

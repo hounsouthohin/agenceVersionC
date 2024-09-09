@@ -1,3 +1,4 @@
 #include "Utilitaire.h"
 #include"cstdlib"
-inline int Utilitaire::genererNb(int min, int max) { return (rand() % (max - min + 1)) + min; }
+#include"ctime"
+int Utilitaire::genererNb(int min, int max) { srand(time(NULL));  return (rand() % (max - min + 1)) + min; }

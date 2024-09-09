@@ -1,5 +1,6 @@
-#include "Guerre.h";
 #pragma once
+#include "Guerre.h"
+#include "Vaisseau.h"
 Guerre::Guerre() :Vaisseau()
 {
 }
@@ -15,9 +16,9 @@ Guerre::Guerre(int _niveau, int _exp, int _capacite, int _vie, int _def, int _at
 }
 Guerre::~Guerre()
 {}
-static std::string to_string()
+std::string Guerre::to_string()
 {
-	std::string info;
+	std::string info = Vaisseau::to_string();
 	info.append("je suis un vaisseau de Guerre");
 	return info;
 }
