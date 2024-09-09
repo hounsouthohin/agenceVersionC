@@ -1,6 +1,8 @@
 #include "Vaisseau.h";
 #include"Faction.h";
 #include <string>;
+Vaisseau::Vaisseau() :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0),faction(0)
+{}
 Vaisseau::Vaisseau(Faction* _faction) :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0)
 {
 	faction = _faction;
@@ -13,7 +15,17 @@ Vaisseau::Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite,Factio
 	capacite = _capacite;
 	faction = _faction;
 }
+Vaisseau::Vaisseau(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction) :nom("Vaisseau Galactique")
+{
+	niveau = _niveau;
+	exp = _exp;
+	capacite = _capacite;
+	defense = _def;
+	attaque = _att;
+	vie = _vie;
+	faction = _faction;
 
+}
 Vaisseau::~Vaisseau() {}
 int Vaisseau::getAtt() { return attaque + faction->getAtt(); }
 int Vaisseau::getDef() { return defense + faction->getDef(); }

@@ -1,18 +1,23 @@
 #include "Guerre.h";
-Guerre::Guerre() :Vaisseau("Guerre",100,150, 450)
-{}
+#pragma once
+Guerre::Guerre() :Vaisseau()
+{
+}
+Guerre::Guerre(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction) :Vaisseau()
+{
+	niveau = _niveau;
+	exp = _exp;
+	capacite = _capacite;
+	defense = _def;
+	attaque = _att;
+	vie = _vie;
+	faction = _faction;
+}
 Guerre::~Guerre()
 {}
-std::string Vaisseau::to_string()
+static std::string to_string()
 {
 	std::string info;
 	info.append("je suis un vaisseau de Guerre");
-	info.append("Nom : " + nom + "\n");
-	info.append("attaque : " + std::to_string(this->getAtt()) + "\n");
-	info.append("defense : " + std::to_string(this->getDef()) + "\n");
-	info.append("Vie: " + std::to_string(this->getVie()) + "\n");
-	info.append("exp : " + std::to_string(this->exp) + "\n");
-	info.append("niveau : " + std::to_string(this->niveau) + "\n");
-	info.append("capacite : " + std::to_string(this->capacite) + "\n");
 	return info;
 }

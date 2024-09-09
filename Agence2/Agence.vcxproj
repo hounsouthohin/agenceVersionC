@@ -133,6 +133,7 @@
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Guerre.cpp" />
     <ClCompile Include="Livraison.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Transport.cpp" />
     <ClCompile Include="Utilitaire.cpp" />
     <ClCompile Include="Vaisseau.cpp" />

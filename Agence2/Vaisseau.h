@@ -1,5 +1,6 @@
+#pragma once
 #include <string>;
-#include"Faction.h";
+#include"Faction.h"
 class Vaisseau
 {
 protected:
@@ -13,8 +14,10 @@ protected:
 	Faction* faction;
 	//Constructeur et surcharge
 public:
+	Vaisseau();
 	Vaisseau(Faction* faction);
-	Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite,Faction* faction);
+	Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite,Faction* _faction);
+	Vaisseau(int _niveau, int _exp, int _capacite,int _vie,int _def,int _att, Faction* _faction);
 	~Vaisseau();
 
 	int getAtt();
@@ -22,7 +25,4 @@ public:
 	int getVie();
 
 	virtual std::string to_string();
-
-
-
 };

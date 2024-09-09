@@ -3,58 +3,56 @@ C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.cpp(1,1
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   FactionBleue.cpp
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\FactionBleue.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\FactionBleue.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   FactionRouge.cpp
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\FactionRouge.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\FactionRouge.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   Factory.cpp
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(1,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.h(1,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(3,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(4,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(6,10): error C2653: 'Factory' : n'est pas un nom de classe ni d'espace de noms
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(11,28): error C2556: 'Vaisseau *FactoryVaisseau::getRandomFaction(void)' : la fonction surchargée ne diffère que par le type de retour de 'Faction *FactoryVaisseau::getRandomFaction(void)'
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(11,28): error C2371: 'FactoryVaisseau::getRandomFaction' : redéfinition ; types de base différents
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(22,21): error C2440: 'initialisation' : impossible de convertir de 'Faction *(__cdecl *)(void)' en 'Faction *'
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(30,3): error C2059: erreur de syntaxe : 'return'
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(5,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(6,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(7,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(8,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.cpp(9,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Utilitaire.h(5,20): warning C4506: aucune définition pour la fonction inline 'int Utilitaire::genererNb(int,int)'
   Guerre.cpp
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Guerre.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Guerre.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Guerre.cpp(2,27): error C2661: 'Vaisseau::Vaisseau' : aucune fonction surchargée ne nécessite 4 arguments
   Livraison.cpp
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Livraison.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Livraison.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Livraison.cpp(2,33): error C2661: 'Vaisseau::Vaisseau' : aucune fonction surchargée ne nécessite 4 arguments
+  main.cpp
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\main.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\main.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\main.cpp(3,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Factory.h(1,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\main.cpp(4,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\main.cpp(8,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
   Transport.cpp
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Transport.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Transport.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Transport.cpp(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Transport.cpp(3,32): error C2661: 'Vaisseau::Vaisseau' : aucune fonction surchargée ne nécessite 4 arguments
   Utilitaire.cpp
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Utilitaire.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Utilitaire.cpp(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   Vaisseau.cpp
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Faction.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\Vaisseau.cpp(3,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   Génération de code en cours...
+Transport.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl to_string(void)" (?to_string@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) déjà défini(e) dans Livraison.obj
+Factory.obj : error LNK2019: symbole externe non résolu "public: static int __cdecl Utilitaire::genererNb(int,int)" (?genererNb@Utilitaire@@SAHHH@Z) référencé dans la fonction "private: static class Faction * __cdecl FactoryVaisseau::getRandomFaction(void)" (?getRandomFaction@FactoryVaisseau@@CAPEAVFaction@@XZ)
+Guerre.obj : error LNK2001: symbole externe non résolu "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Guerre::to_string(void)" (?to_string@Guerre@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+C:\Users\2330607\Documents\Code\JeuxVideo\agenceVersionC\Agence2\x64\Debug\Agence.exe : fatal error LNK1120: 2 externes non résolus
