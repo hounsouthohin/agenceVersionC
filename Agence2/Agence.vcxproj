@@ -134,6 +134,7 @@
     <ClCompile Include="Guerre.cpp" />
     <ClCompile Include="Livraison.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Station.cpp" />
     <ClCompile Include="Transport.cpp" />
     <ClCompile Include="Utilitaire.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
@@ -149,6 +150,7 @@
     <ClInclude Include="FactionBleue.h" />
     <ClInclude Include="FactionRouge.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="Station.h" />
     <ClInclude Include="Utilitaire.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

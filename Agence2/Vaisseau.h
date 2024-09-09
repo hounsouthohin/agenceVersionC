@@ -3,15 +3,16 @@
 #include"Faction.h"
 class Vaisseau
 {
+private: 
+	Faction* faction;
 protected:
 	int attaque;
 	int defense;
 	int capacite;
-	std::string nom;
+	std::string nom; 
 	int niveau;
 	int exp;
 	int vie;
-	Faction* faction;
 	//Constructeur et surcharge
 public:
 	Vaisseau();

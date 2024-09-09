@@ -37,7 +37,7 @@ Vaisseau* FactoryVaisseau::getRandomVaisseau()
 Faction* FactoryVaisseau::getRandomFaction()
 {
 	Faction* faction (0);
-	std::string nom(0);
+	std::string nom(" ");
 	//Generation des att,defense,vie,niveau ,exp et capacite
 	int att = Utilitaire::genererNb(1, 100);
 	int cap = Utilitaire::genererNb(10, 150);
