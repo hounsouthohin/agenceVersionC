@@ -1,7 +1,7 @@
 #include "Vaisseau.h";
 #include"Faction.h";
 #include <string>;
-Vaisseau::Vaisseau() :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0),faction(0)
+Vaisseau::Vaisseau() :nom("Vaisseau Galactique"), niveau(120), exp(230), capacite(123), attaque(543), defense(234), vie(564),faction(0)
 {}
 Vaisseau::Vaisseau(Faction* _faction) :nom("Vaisseau Galactique"), niveau(0), exp(0), capacite(0), attaque(0), defense(0), vie(0)
 {

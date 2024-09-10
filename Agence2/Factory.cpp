@@ -43,14 +43,13 @@ Faction* FactoryVaisseau::getRandomFaction()
 	int cap = Utilitaire::genererNb(10, 150);
 	int def = Utilitaire::genererNb(20, 200);
 	int vie = Utilitaire::genererNb(30, 400);
-	faction = new Faction("klkl", 0, 0, 0, 0);
 	//Generer type aleatoire
 	int nomIndex = 1;
 	switch(nomIndex) 
 	{
 		case 1 :
 			nom = "FactionRouge";
-			faction = new FactionRouge(nom, cap, att, def, vie);
+			faction = new FactionRouge(nom, cap, att, def, vie);/**/
 			break;
 		case 2 : 
 			nom = "FactionBleue";

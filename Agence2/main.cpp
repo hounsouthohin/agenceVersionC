@@ -6,7 +6,7 @@
 int main() 
 {
 	srand(time(NULL));
-	std::cout << "..... production de vaisseau" << std::endl;
+	std::cout << "################################ production de vaisseau################################" << std::endl;
 	Vaisseau* vaisseau = FactoryVaisseau::getRandomVaisseau();
 	std::cout << vaisseau -> to_string();
 
