@@ -24,6 +24,23 @@ int main()
 		Vaisseau* vaisseau = FactoryVaisseau::getRandomVaisseau();
 		station->ajouterVaisseau(vaisseau);
 	}
+	std::cout << "#################################BIENVENU AU JEU DE L'ESCADRON##########################  " << std::endl;
+	std::cout << "                . ___ \n";
+	std::cout << "                    __,' __`.                _..----....____\n";
+	std::cout << "        __...--.'``;.   ,.   ;``--..__     .'    ,-._    _.-'\n";
+	std::cout << "  _..-''-------'   `'   `'   `'     O ``-''._   (,;') _,\n";
+	std::cout << ",'________________                          \\`-._`-',\n";
+	std::cout << " `._              ```````````------...___   '-.._'-:\n";
+	std::cout << "    ```--.._      ,.                     ````--...__\\-.\n";
+	std::cout << "            `.--. `-`                       ____    |  |`\n";
+	std::cout << "              `. `.                       ,'`````.  ;  ;`\n";
+	std::cout << "                `._`.        __________   `.      \\'__/`\n";
+	std::cout << "                   `-:._____/______/___/____`.     \\  `\n";
+	std::cout << "                               |       `._    `.    \\\n";
+	std::cout << "                               `._________`-.   `.   `.___\n";
+	std::cout << "                                             SSt  `------'`\n";
+
+
 	std::cout << "#################################QUELLE OPTION DESIREZ VOUS ##########################  " << std::endl;
 	std::cout << "################################ (1)vaisseaux Disponibles ##########################  " << std::endl;
 	std::cout << "#################################(2)INFORMATION DE VOTRE STATION#######################" << std::endl;
