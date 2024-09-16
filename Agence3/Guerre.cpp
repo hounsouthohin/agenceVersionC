@@ -4,7 +4,7 @@
 Guerre::Guerre() :Vaisseau()
 {
 }
-Guerre::Guerre(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction) :Vaisseau()
+Guerre::Guerre(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction,int _valeurMarchande) :Vaisseau()
 {
 	niveau = _niveau;
 	exp = _exp;
@@ -13,6 +13,7 @@ Guerre::Guerre(int _niveau, int _exp, int _capacite, int _vie, int _def, int _at
 	attaque = _att;
 	vie = _vie;
 	faction = _faction;
+	valeurMarchande = _valeurMarchande;
 }
 Guerre::~Guerre()
 {}

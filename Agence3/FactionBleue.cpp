@@ -17,7 +17,7 @@ FactionBleue::FactionBleue(std::string _nom) :Faction(_nom)
 	defense = 0;
 	vie = 0;
 }
-FactionBleue::FactionBleue(std::string _nom, int _capacite, int _attaque, int _defense, int _vie):Faction(_nom,_capacite, _attaque,  _defense, _vie)
+FactionBleue::FactionBleue(std::string _nom, int _capacite, int _attaque, int _defense, int _vie):Faction()
 {
 	nom = _nom;
 	capacite = _capacite;

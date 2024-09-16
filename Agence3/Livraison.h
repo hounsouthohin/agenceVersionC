@@ -4,7 +4,7 @@ class Livraison : public Vaisseau
 {
 public:
 	Livraison();
-	Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* faction);
+	Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* faction,int _valeurMarchande);
 	~Livraison();
 	virtual std::string to_string();
 };

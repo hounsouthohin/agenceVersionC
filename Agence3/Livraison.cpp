@@ -1,7 +1,7 @@
 #include "Livraison.h";
-Livraison::Livraison() :Vaisseau(niveau, exp, capacite, vie, defense, attaque, faction)
+Livraison::Livraison() :Vaisseau(niveau, exp, capacite, vie, defense, attaque, faction,valeurMarchande)
 {}
-Livraison::Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction) :Vaisseau()
+Livraison::Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction,int _valeurMarchande) :Vaisseau()
 {
 	niveau = _niveau;
 	exp = _exp;
@@ -10,6 +10,7 @@ Livraison::Livraison(int _niveau, int _exp, int _capacite, int _vie, int _def, i
 	attaque = _att;
 	vie = _vie;
 	faction = _faction;
+	valeurMarchande = _valeurMarchande;
 }
 Livraison::~Livraison()
 {}

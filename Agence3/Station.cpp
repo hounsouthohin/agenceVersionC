@@ -3,26 +3,29 @@
 #include<string>
 #include "Station.h"
 #include "Factory.h"
-Station::Station() :platinumDisponible(0), vieStation(0), vecVaisseau(0) {};
-Station::Station(int _platinumDisponible, int _vieStation, std::vector<Vaisseau*> _vecVaisseau) 
+Station::Station() :platinumDisponible(340), vieStation(400), vecVaisseau(0) {};
+Station::Station(int _platinumDisponible, int _vieStation, std::vector<Vaisseau*> _vecVaisseau)
 {
 	platinumDisponible = _platinumDisponible;
 	vieStation = _vieStation;
-	vecVaisseau = _vecVaisseau; 
+	vecVaisseau = _vecVaisseau;
 }
-
-Station::~Station() 
+Station::Station(std::vector<Vaisseau*> _vecVaisseau) :platinumDisponible(340), vieStation(400)
 {
-	for (auto it = vecVaisseau.begin(); it != vecVaisseau.end(); ++it) 
+	vecVaisseau = _vecVaisseau;
+}
+Station::~Station()
+{
+	for (auto it = vecVaisseau.begin(); it != vecVaisseau.end(); ++it)
 	{
 		if (*it != NULL) {
-			delete *it;
+			delete* it;
 			*it = nullptr;
 		}
-		
+
 	}
 };
-std::vector<Vaisseau*> Station:: getVaisseauDispo() 
+std::vector<Vaisseau*> Station::getVaisseauDispo()
 {
 	return vecVaisseau;
 };
@@ -30,11 +33,13 @@ void Station::ajouterVaisseau(Vaisseau* vaisseau)
 {
 	vecVaisseau.push_back(vaisseau);
 };
-void Station::init() 
+void Station::init()
 {
-	for (int i = 0; i < 3; i++) 
+	for (int i = 0; i < 3; i++)
 	{
-		vecVaisseau.push_back(FactoryVaisseau::getRandomVaisseau());
+		Vaisseau* vaiss(0);
+		vaiss = FactoryVaisseau::getRandomVaisseau();
+		vecVaisseau.push_back(vaiss);
 	}
 }
 std::string Station::to_string()

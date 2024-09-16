@@ -12,6 +12,7 @@ private:
 public:
 	Station(int _platinumDisponible, int _vieStation, std::vector<Vaisseau*> _vecVaisseau);
 	Station();
+	Station(std::vector<Vaisseau*> _vecVaisseau);
 	~Station();
 
 	std::vector<Vaisseau*> getVaisseauDispo();
