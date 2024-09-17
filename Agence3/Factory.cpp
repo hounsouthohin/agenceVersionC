@@ -22,13 +22,13 @@
 	int exp = Utilitaire::genererNb(50, 200);
 	int valeurMarchande = Utilitaire::genererNb(1000,10000);
 	//Generer type aleatoire
-	int typeIndex = Utilitaire::genererNb(1, 3);
+	int typeIndex = Utilitaire::genererNb(0, 2);
 	switch (typeIndex)
 	{
-	case 1:
+	case 0:
 		vaisseau = new Guerre(niv, exp, cap, vie, def, att, faction,valeurMarchande);
 		break;
-	case 2:
+	case 1:
 		vaisseau = new Livraison(niv, exp, cap, vie, def, att, faction,valeurMarchande);
 		break;
 	default:

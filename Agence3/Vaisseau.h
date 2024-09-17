@@ -15,8 +15,8 @@ protected:
 	int vie;
 	//Constructeur et surcharge
 public:
+	Vaisseau(Faction* _faction);
 	Vaisseau();
-	Vaisseau(Faction* faction);
 	Vaisseau(std::string _nom, int _niveau, int _exp, int _capacite, Faction* _faction,int _valeurMarchande);
 	Vaisseau(int _niveau, int _exp, int _capacite, int _vie, int _def, int _att, Faction* _faction,int _valeurMarchande);
 	~Vaisseau();

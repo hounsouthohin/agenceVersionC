@@ -24,7 +24,7 @@ int main()
 		Vaisseau* vaisseau = FactoryVaisseau::getRandomVaisseau();
 		station->ajouterVaisseau(vaisseau);
 	}
-	std::cout << "#################################BIENVENU AU JEU DE L'ESCADRON##########################  " << std::endl;
+	std::cout << "#################################  BIENVENU AU JEU DE L'ESCADRON##########################  " << std::endl;
 	std::cout << "                . ___ \n";
 	std::cout << "                    __,' __`.                _..----....____\n";
 	std::cout << "        __...--.'``;.   ,.   ;``--..__     .'    ,-._    _.-'\n";
@@ -38,7 +38,7 @@ int main()
 	std::cout << "                   `-:._____/______/___/____`.     \\  `\n";
 	std::cout << "                               |       `._    `.    \\\n";
 	std::cout << "                               `._________`-.   `.   `.___\n";
-	std::cout << "                                             SSt  `------'`\n";
+	std::cout << "                                                  `------'`\n";
 
 
 	std::cout << "#################################QUELLE OPTION DESIREZ VOUS ##########################  " << std::endl;
@@ -63,7 +63,7 @@ int main()
 		station = nullptr;
 		break;
 	case '3':
-		std::cout << "############################## LISTE DES VAISSEAUX DISPONIBLES A L'ACHAT #################################" << std::endl;
+		std::cout << "############### LISTE DES VAISSEAUX DISPONIBLES A L'ACHAT ############" << std::endl;
 		vecVaisseauAchat = station->getVaisseauDispo();
 		for (auto it = vecVaisseauAchat.begin(); it != vecVaisseauAchat.end(); ++it)
 		{
@@ -84,6 +84,7 @@ int main()
 				if (sommeDispo >= vecVaisseauAchat[0]->getValeurMarchande())
 				{
 					vaisseauAchete.push_back(vecVaisseauAchat[0]);
+					vecVaisseauAchat[0] = new Vaisseau();
 					sommeDispo -= vecVaisseauAchat[0]->getValeurMarchande();
 					break;
 				}
@@ -91,6 +92,7 @@ int main()
 				if (sommeDispo > vecVaisseauAchat[1]->getValeurMarchande())
 				{
 					vaisseauAchete.push_back(vecVaisseauAchat[1]);
+					vecVaisseauAchat[1] = new Vaisseau();
 					sommeDispo -= vecVaisseauAchat[1]->getValeurMarchande();
 					break;
 				}
@@ -98,6 +100,7 @@ int main()
 				if (sommeDispo > vecVaisseauAchat[2]->getValeurMarchande())
 				{
 					vaisseauAchete.push_back(vecVaisseauAchat[2]);
+					vecVaisseauAchat[2] = new Vaisseau();
 					sommeDispo -= vecVaisseauAchat[2]->getValeurMarchande();
 					break;
 				}
@@ -105,6 +108,7 @@ int main()
 				if (sommeDispo > vecVaisseauAchat[3]->getValeurMarchande())
 				{
 					vaisseauAchete.push_back(vecVaisseauAchat[3]);
+					vecVaisseauAchat[3] = new Vaisseau();
 					sommeDispo -= vecVaisseauAchat[3]->getValeurMarchande();
 					break;
 				}
@@ -119,6 +123,7 @@ int main()
 				if (sommeDispo > vecVaisseauAchat[5]->getValeurMarchande())
 				{
 					vaisseauAchete.push_back(vecVaisseauAchat[5]);
+					vecVaisseauAchat[5] = new Vaisseau();
 					sommeDispo -= vecVaisseauAchat[5]->getValeurMarchande();
 					break;
 				}
